@@ -11,7 +11,7 @@
 
 .game_contener{
     position: absolute;
-    left: 25%; 
+    left: min(20vw, 20vh); 
     height: min(60vw, 60vh);
     width: min(60vw, 60vh);
     display: grid;
