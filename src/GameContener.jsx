@@ -4,7 +4,7 @@ const GameContener = () => {
     return (
         <div className={`${styles.game_contener}`}>
             {box.map((item) => (
-                <div key={item} className={`${styles.box}`}></div>
+                <div key={item} className={`${styles.box}`}>{ item}</div>
             ))}
         </div>
     )

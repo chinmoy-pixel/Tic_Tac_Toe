@@ -2,6 +2,11 @@
     height: min(18vw, 18vh);
     width: min(18vw, 18vh);
     border: 1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: min(10vw, 10vh);
+    cursor: pointer;
 }
 
 .game_contener{
