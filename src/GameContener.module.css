@@ -1,0 +1,14 @@
+.box{
+    height: min(18vw, 18vh);
+    width: min(18vw, 18vh);
+    border: 1px solid black;
+}
+
+.game_contener{
+    position: absolute;
+    left: 25%; 
+    height: min(60vw, 60vh);
+    width: min(60vw, 60vh);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
